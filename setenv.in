@@ -1,0 +1,3 @@
+export LD_LIBRARY_PATH=${libgeos}:${libxml2}:${libxslt}:${libspatialindex}:${libgdal}
+export DYLD_LIBRARY_PATH=${libgeos}:${libxml2}:${libxslt}:${libspatialindex}:${libgdal}
+export GDAL_DATA=${gdaldata}
